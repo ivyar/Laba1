@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Taylor_series e = new Taylor_series();
+            TaylorSeries e = new TaylorSeries();
             Console.ReadKey();
         }
     }

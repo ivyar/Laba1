@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1
 {
-    public class Taylor_series
+    public class TaylorSeries
     {
         public double CalculateExp(double x, int k)
         {
@@ -16,7 +16,7 @@ namespace ConsoleApp1
             return exp;
         }
 
-        public int Fact(int x)
+        static int Fact(int x)
         {
             if (x == 0)
             {
